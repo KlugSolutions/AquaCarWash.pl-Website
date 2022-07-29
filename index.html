@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>AQUA Car Wash - Myjnia samochodowa Reda</title>
+</head>
+
+
+<body>
+	<section class="header" id="header">
+		<div class="logo">
+			<a href="index.html"><img src="logo.png"></a>
+		</div>
+		<nav>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="#header">HOME</a></li>
+					<li><a href="#cennik">CENNIK</a></li>
+					<!---- <li><a href="#">REALIZACJE</a></li> --->
+					<li><a href="#contact">KONTAKT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1><span>AQUA Car</span> Wash</h1>
+			<hr>
+			<p>Myjnia Samochodowa w Redzie</p>
+			<a href="https://facebook.com/MyjniaReda" class="hero-btn">Polub nas na <i class="fa fa-facebook"></i> i
+				zarezerwuj w terminarzu swoją wizytę!</a>
+		</div>
+	</section>
+
+
+	<!--------------- Cennik --------------->
+	<section class="cennik" id="cennik">
+		<h1>Cennik</h1>
+		<div class="row">
+			<div class="cennik-col">
+				<h3>Hatchback</h3>
+				<p>Cennik wkrótce...</p>
+			</div>
+			<div class="cennik-col">
+				<h3>Sedan/Kombi</h3>
+				<p>Cennik wkrótce...</p>
+			</div>
+			<div class="cennik-col">
+				<h3>Van/SUV/Terenowe</h3>
+				<p>Cennik wkrótce...</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!--------------- Kontakt --------------->
+	<section class="contact" id="contact">
+		<div class="content">
+			<h2>Dane kontaktowe</h2>
+		</div>
+		<div class="container">
+			<div class="contactInfo">
+				<div class="box">
+					<a href="https://goo.gl/maps/qK4LpoP74KZAJ6kt6">
+						<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+					</a>
+					<div class="text">
+						<h3>Adres</h3>
+						<p>AQUACENTRUM Reda<br>ul. Morska 5</p>
+					</div>
+				</div>
+				<div class="box">
+					<a href="tel:+48-788-688-365">
+						<div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+					</a>
+					<div class="text">
+						<h3>Telefon</h3>
+						<p>788 688 365</p>
+					</div>
+				</div>
+				<div class="box">
+					<a href="mailto:info@aquacarwash.pl">
+						<div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+					</a>
+					<div class="text">
+						<h3>Email</h3>
+						<p>info@aquacarwash.pl</p>
+					</div>
+				</div>
+				<div class="box">
+					<a href="https://facebook.com/MyjniaReda">
+						<div class="icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></div>
+					</a>
+					<div class="text">
+						<h3>Facebook</h3>
+						<p>facebook.com/MyjniaReda</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.515977598147!2d18.359984822821954!3d54.594902334270934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda533706c2c0f%3A0x666671e8db570f64!2sAquacentrum!5e0!3m2!1spl!2spl!4v1658927926634!5m2!1spl!2spl"
+				width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade">
+			</iframe>
+		</div>
+	</section>
+
+
+	<!--------------- Footer --------------->
+	<section class="footer">
+		Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2022 AQUA Car Wash | All Rights Reserved | Created
+		by: <a href="mailto:info@klugcode.dev"> <span>Tomasz Kluge - Klug Code Solutions</span></a>
+	</section>
+
+
+	<!--------------- JavaScript --------------->
+	<script src="menu.js" async></script>
+	<script src="nav-bg-scroll.js" async></script>
+
+
+</body>
+
+</html>
