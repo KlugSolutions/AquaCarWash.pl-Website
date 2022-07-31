@@ -27,12 +27,12 @@ nav {
 	align-items: center;
 	z-index: 2;
 	right: 0;
-	transition: background-color .5s ease;	
+	transition: background-color .5s ease;
 }
 
 /* bg-croll-nav */
 .scrolling-active {
-	background-color: rgb(34,34,33);
+	background-color: rgb(34, 34, 33);
 	border-radius: 10px;
 }
 
@@ -121,14 +121,14 @@ nav .fa {
 	.text-box h1 {
 		font-size: 40px;
 	}
-	
+
 	.nav-links ul li {
 		display: block
 	}
 
 	.nav-links {
 		position: absolute;
-		background: rgb(34,34,33);
+		background: rgb(34, 34, 33);
 		border-radius: 10px;
 		width: 120px;
 		top: 0;
@@ -314,5 +314,5 @@ iframe {
 }
 
 .footer span {
-	color: black;	
+	color: black;
 }
