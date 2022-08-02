@@ -187,8 +187,7 @@ h3 {
 }
 
 .prices-col p {
-	text-align: center;
-	;
+	text-align: left;
 }
 
 .prices-col:hover {
