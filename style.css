@@ -185,10 +185,18 @@ h3 {
 	font-weight: 600;
 	margin: 10px 0;
 }
-
+.prices-box {
+	flex-direction: row;
+	display: flex;
+	right: 0;
+}
+.prices-box .services-prices p{
+	text-align: right;
+}
 .prices-col p {
 	text-align: left;
 }
+
 
 .prices-col:hover {
 	box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.5);
