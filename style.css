@@ -197,6 +197,13 @@ td {
 th {
 	text-align: center;
 }
+#allprices{
+	background-color: whitesmoke;
+}
+#allprices span{
+	text-decoration: line-through;
+	color: red;
+}
 
 td,
 th {
