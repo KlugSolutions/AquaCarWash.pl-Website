@@ -198,11 +198,11 @@ th {
 	text-align: center;
 }
 
-#allprices {
+.allprices {
 	background-color: whitesmoke;
 }
 
-#allprices span {
+.oldprice {
 	text-decoration: line-through;
 	color: red;
 }
