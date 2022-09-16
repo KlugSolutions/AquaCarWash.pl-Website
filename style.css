@@ -208,9 +208,12 @@ h2 {
 	text-align: left;
 	font-weight: bold;
 	color: black;
-	
-
 }
+
+.prices h1 {
+	color: black;
+}
+
 h3 {
 	text-align: center;
 	font-weight: 600;
