@@ -155,13 +155,18 @@ nav .fa {
 	margin-top: 5px;
 	text-align: center;
 	padding-top: 100px;
-	color: black;
+	color: whitesmoke;
 	margin-bottom: 100px;
 }
 
 h1 {
 	font-size: 36px;
 	font-weight: 600;
+	color: black;
+}
+
+h2 {
+	color: black;
 }
 
 .row {
@@ -180,6 +185,16 @@ h1 {
 	transition: 0.5s;
 }
 
+.detailing {
+	display: flex;
+	flex-direction: column;
+	font-weight: 700;
+}
+
+.prices-col p {
+	margin-top: 5%;
+	text-align: left;
+}
 h3 {
 	text-align: center;
 	font-weight: 600;
@@ -200,20 +215,16 @@ th {
 
 .allprices {
 	background-color: whitesmoke;
-}
-
-.oldprice {
-	color: red;
+	color: black;
 }
 
 td,
 th {
 	border-bottom: 1px solid whitesmoke;
-	border-radius: 10px;
 }
 
 tr:hover {
-	background-color: whitesmoke;
+	background-color:rgba(0,0,0, 0.2);
 	cursor: pointer;
 }
 
