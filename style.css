@@ -92,10 +92,11 @@ nav {
 	margin: 10px 0 40px;
 	font-size: 15px;
 	color: whitesmoke;
+	font-weight: bold;
 }
 
 .hero-btn {
-	display: inline-block;
+	
 	text-decoration: none;
 	color: whitesmoke;
 	border: 1px solid whitesmoke;
@@ -105,6 +106,9 @@ nav {
 	background: transparent;
 	position: relative;
 	cursor: pointer;
+	
+	
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-btn:hover {
@@ -188,8 +192,12 @@ h2 {
 .detailing {
 	display: flex;
 	justify-content: center;
+}
+.detailing ul{
+	justify-content: center;
 	text-align: left;
 	font-weight: bold;
+	margin-left: 20px;
 }
 
 .prices-col p {
@@ -241,6 +249,15 @@ tr:hover {
 @media(max-width: 960px) {
 	.row {
 		flex-direction: column;
+	}
+
+	.detailing ul {
+		font-size: 0.8rem;
+		margin-left: 10px;
+	}
+
+	.prices-col p {
+		font-size: 0.8rem;
 	}
 }
 
