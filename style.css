@@ -187,13 +187,18 @@ h2 {
 
 .detailing {
 	display: flex;
-	flex-direction: column;
-	font-weight: 700;
+	justify-content: center;
+	text-align: left;
+	font-weight: bold;
 }
 
 .prices-col p {
 	margin-top: 5%;
 	text-align: left;
+	font-weight: bold;
+	color: black;
+	
+
 }
 h3 {
 	text-align: center;
@@ -207,6 +212,7 @@ table {
 
 td {
 	text-align: left;
+	font-weight: bold;
 }
 
 th {
