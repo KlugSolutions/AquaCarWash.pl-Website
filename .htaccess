@@ -1,6 +1,18 @@
-RewriteCond %{HTTP_HOST} ^aquacarwash.pl$
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.aquacarwash.pl$ [NC]
 RewriteRule ^(.*)$ https://aquacarwash.pl/$1 [R=301,L]
-RewriteCond %{HTTP_HOST} ^www.aquacarwash.pl$
-RewriteRule ^(.*)$ https://aquacarwash.pl/$1 [R=301,L]
-RewriteCond %{HTTPS} off
-RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ https://aquacarwash.pl/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/favicon.ico$ [NC]
+RewriteCond %{REQUEST_URI} /favicon(s)?\.?(gif|ico|jpe?g?|png)?$ [NC]
+RewriteRule (.*) http://aquacarwash.pl/logo.png [R=301,L]
+</IfModule>
+
