@@ -12,8 +12,10 @@
 		content="myjnia, myjnia reda, mycie, odkurzanie, wosk, pranie tapicerki, renowacja skór, czyszczenie samochodu">
 	<title>Myjnia Samochodowa Reda - Aqua Car Wash</title>
 	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 	<link rel="icon" type="image/x-icon" href="logo.png" class="favicon">
 
 	<!-- Google tag (gtag.js) -->
@@ -40,8 +42,7 @@
 				<ul>
 					<li><a href="#home">HOME</a></li>
 					<li><a href="#prices">CENNIK</a></li>
-					<li><a href="https://widget.zarezerwuj.pl/direct/20e58513-651d-4767-93c9-8ee1c105a620"
-							target="_blank">REZERWACJA</a></li>
+					<li><a href="#reservation">REZERWACJA</a></li>
 					<!---- <li><a href="#">REALIZACJE</a></li> --->
 					<li><a href="#contact">KONTAKT</a></li>
 				</ul>
@@ -52,25 +53,15 @@
 			<h1><span>AQUA CAR</span> WASH</h1>
 			<hr>
 			<p>Myjnia ręczna w Redzie<br>
-				Czynne codziennie 8:00 - 21:00</p>
-			<a href="https://facebook.com/MyjniaReda" class="hero-btn" target="_blank">Polub nas na <i
-					class="fa fa-facebook"></i></a><br><br>
-			<script src="https://widget.zarezerwuj.pl/button-widget.js" data-host="https://widget.zarezerwuj.pl/"
-				data-id="20e58513-651d-4767-93c9-8ee1c105a620" data-style="
-					display: inline-block;
-					justify-content: center;
-					text-decoration: none;
-					color: whitesmoke;
-					border: 1px solid whitesmoke;
-					border-radius: 10px;
-					padding: 12px 34px;
-					font-size: 13px;
-					background: transparent;
-					position: relative;
-					cursor: pointer;
-					background-color: rgba(0, 0, 0, 0.5);
-					" data-name="ZAREZERWUJ WIZYTĘ" data-title="Zarezerwuj" data-hover="#72c9da" data-filling-hover="true">
-					</script>
+				Czynne:<br> 
+				Poniedziałek - Sobota 8:00 - 21:00<br>
+				Niedziela - Tylko rezerwacje online</p>
+
+			<div class="socialm">
+				<a href="https://www.facebook.com/MyjniaReda" target="_blank"><span class="fa fa-facebook-f"></span></a>
+				<a href="https://www.instagram.com/myjnia_reda_aqua_car_wash/" target="_blank"><span
+						class="fa fa-instagram"></span></a>
+			</div>
 		</div>
 	</header>
 
@@ -132,6 +123,23 @@
 						</tr>
 					</table>
 				</div>
+				<div class="prices-col">
+					<h2>BUS</h2><br>
+					<table>
+						<tr>
+							<td>Mycie+Hydrowosk:</td>
+							<th>80 ZŁ</th>
+						</tr>
+						<tr>
+							<td>Czyszczenie wewn.:</td>
+							<th>140 ZŁ</th>
+						</tr>
+						<tr class="allprices">
+							<th>ALL-IN-ONE</th>
+							<th>od 200 ZŁ</th>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<h2>DETAILING</h2><br>
 			<div class='prices-col'>
@@ -152,17 +160,25 @@
 					* Cena może ulec zmianie w przypadku mocno zabrudzonego auta.</p>
 			</div>
 		</section>
-
+		<!-------------Reservations------------->
+		<section class="reserv" id="reservation">
+			<div>
+				<iframe src='https://widget.zarezerwuj.pl/20e58513-651d-4767-93c9-8ee1c105a620' seamless
+					style="border: none; min-height: 650px; width: 100%; height: 100%;"></iframe>
+			</div>
+		</section>
 		<!--------------- Footer --------------->
 		<footer id="contact">
 			<div class="main-content">
 				<div class="left box">
 					<h2>Social media</h2>
 					<div class="content">
-						<p>Zapraszamy na nasze Social Media.</p>
+						<p>Zapraszamy na nasze Social Media</p>
 						<div class="social">
-							<a href="#"><span class="fa fa-facebook-f"></span></a>
-							<a href="#"><span class="fa fa-instagram"></span></a>
+							<a href="https://www.facebook.com/MyjniaReda" target="_blank"><span
+									class="fa fa-facebook-f"></span></a>
+							<a href="https://www.instagram.com/myjnia_reda_aqua_car_wash/" target="_blank"><span
+									class="fa fa-instagram"></span></a>
 						</div>
 					</div>
 				</div>
@@ -170,33 +186,35 @@
 					<h2>Kontakt</h2>
 					<div class="content">
 						<div class="phone">
-							<span class="fa fa-mobile"></span>
-							<span class="text">+48 788 688 365</span>
+							<a href="tel:+48788688365"><span class="fa fa-mobile"></span>
+								<span class="text">+48 788 688 365</span></a>
 						</div>
 						<div class="mail">
-							<span class="fa fa-envelope-o"></span>
-							<span class="text">info@aquacarwash.pl</span>
+							<a href="mailto:info@aquacarwash.pl"><span class="fa fa-envelope-o"></span>
+								<span class="text">info@aquacarwash.pl</span></a>
 						</div>
 						<div class="place">
-							<span class="fa fa-map-marker"></span>
-							<span class="text">AQUACENTRUM Reda ul. Morska 5</span>
+							<a href="https://goo.gl/maps/n8T2n2NFuWCpYryVA" target="_blank"><span
+									class="fa fa-map-marker"></span>
+								<span class="text">AQUACENTRUM Reda ul. Morska 5/M</span></a>
 						</div>
 					</div>
 				</div>
 				<div class="right box">
 					<h2>Napisz do nas</h2>
 					<div class="content">
-						<form action="mailto:tomasz.kluge@gmail.com" method="GET">
+						<form action="https://formsubmit.co/info@aquacarwash.pl" method="POST">
+							<input type="hidden" name="_subject" value="Nowa wiadomość ze strony aquacarwash.pl">
 							<div class="email">
 								<div class="text">Email *</div>
-								<input type="email" required>
+								<input type="email" name="email" required>
 							</div>
 							<div class="msg">
 								<div class="text">Wiadomość *</div>
-								<textarea rows="2" cols="25" required></textarea>
+								<textarea rows="2" cols="25" type="message" name="message" required></textarea>
 							</div>
 							<div class="btn">
-								<button type="submit" value="send">Wyślij</button>
+								<button type="submit">Wyślij</button>
 							</div>
 						</form>
 					</div>
@@ -204,7 +222,8 @@
 			</div>
 			<div class="bottom">
 				<center>
-					<span class="credit">Created By <a href="#">Tomasz Kluge - KlugCode Solutions</a> | </span>
+					<span class="credit">Created By <a href="https://klugcode.dev">KLUG<span class='code'>CODE</span>
+							Solutions</a> | </span>
 					<span class="fa fa-copyright"></span><span> 2022 All rights reserved.</span>
 				</center>
 			</div>
