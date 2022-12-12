@@ -178,6 +178,22 @@ nav .fa {
 	}
 }
 
+/* ------------news------------ */
+
+.news .voucher {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.news .voucher img {
+	align-items: center;
+}
+
+.news .news-text {
+	text-align: center;
+}
+
 /* ---------- Prices ---------- */
 
 .prices {
